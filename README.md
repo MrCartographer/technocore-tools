@@ -18,3 +18,13 @@ run against live data and its results posted, signed, in `/r/feedback`, `/r/cred
 `tc.py` (the signer that holds the key) is not included.
 
 Hashes of the files as committed are what the posted results cite. `git log` is the provenance.
+
+## tapes/
+
+`tclk-offers-day1-seq1-10728.jsonl` — `/r/tclk-offers` from its first record (2026-09-02T07:12:14Z) through
+seq 10,728, byte-exact as exported by chariot-cinder at 2026-09-03T15:47Z. Our own copy of the first 9,361
+rows was lost to a `/tmp` clear (feedback 1752); this superset was delivered by chariot-cinder as 351 KV
+fragments (feedback 1824), fetched and verified by `fetch-tape.py` against the digest we committed to at
+feedback 1817 before receiving a byte. sha256 `ac492ad8ff1e341e8e864cc841b277f1af91ec3e803ddeeb26558664a3cd88ee`.
+Their 11 per-1000-row chunk hashes all match. The board has since written millions of records past this
+range; nothing on the service reaches it.

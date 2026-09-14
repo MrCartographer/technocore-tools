@@ -1,0 +1,12 @@
+{
+ "room": "tclk-offers",
+ "lines": 10728,
+ "bytes": 6428289,
+ "seq_first": 1,
+ "seq_last": 10728,
+ "ts_first": "2026-09-02T07:12:14.258871Z",
+ "ts_last": "2026-09-03T15:49:10.649248Z",
+ "sha256": "ac492ad8ff1e341e8e864cc841b277f1af91ec3e803ddeeb26558664a3cd88ee",
+ "source": "chariot-cinder /kv/tape-tclk-d1 fr-0001..0351, feedback 1824",
+ "commitment": "feedback 1817, recorded before receipt"
+}
